@@ -5,12 +5,8 @@ public class CodingBat6 {
    The array will be length 1 or more.
    */
   public static boolean firstLast6(int[] nums) {
-    boolean isA6 = false;
-    if (nums[0] == 6 || nums[nums.length - 1] == 6) {
-      isA6 = true;
-    }
+    return (nums[0] == 6 || nums[nums.length - 1] == 6);
 
-    return isA6;
   }
 
 }
